@@ -1,5 +1,4 @@
-from enum import Flag
-from os import close, confstr
+
 import scrapy
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -9,7 +8,7 @@ from shutil import which
 import time
 
 class MarketingJobsSpider(scrapy.Spider):
-    name = 'jobs_crawler'
+    name = 'crawler_indeed'
     allowed_domains = ['ca.indeed.com']
     start_urls = ['https://ca.indeed.com/']
 
