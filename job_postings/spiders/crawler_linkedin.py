@@ -2,7 +2,6 @@ import scrapy
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from scrapy.selector import Selector
-from selenium.webdriver.common.keys import Keys
 from shutil import which
 import time
 
